@@ -1,0 +1,42 @@
+.imageupload{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.imageupload__progress{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.imageupload__input{
+    border: none;
+}
+.imageupload__caption{
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Acme', sans-serif;
+}
+.imageupload__file{
+ background-color: lightgrey;
+ 
+  font-family: 'Acme', sans-serif;
+     
+ }
+.imageupload button{
+    background-color: greenyellow;
+    font-family: 'Acme', sans-serif;
+    width: 15px;
+    height: 19px;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+

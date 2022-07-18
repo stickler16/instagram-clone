@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.post{
+    max-width: 500px;
+    /* background-color: rgb(241, 238, 238); */
+    border: 2px solid lightgrey;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.post__image{
+    width: 100%;
+    object-fit: contain;
+    border-top: 2px solid  lightgrey;
+    border-bottom: 2px solid  lightgrey;
+
+}
+
+.post__text{
+    font-weight: normal;
+    padding: 20px;
+    font-family: 'Acme', sans-serif;
+
+}
+.post__header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Acme', sans-serif;
+
+}
+.post__avatar{
+    margin-right: 10px;
+    border: 1px solid black;
+
+
+}
+.post__commentBox{
+    display: flex;
+    margin-top: 10px;
+
+}
+.post__input{
+    flex: 1;
+    border: none;
+    background-color: rgb(241, 238, 238);
+    /* border-radius: 20px; */
+    padding: 10px;
+    border-top:1px solid lightgrey ;
+}
+.post__button{
+    flex: 0;
+    background-color: transparent;
+    background-repeat: no-repeat;
+
+    border: none;
+}
+.post__comments{
+    /* margin: 20px; */
+    font-family: 'Acme', sans-serif;
+   padding: 10px;
+
+}
+.post__comments p{
+    margin: 5px;
+}
