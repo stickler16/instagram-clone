@@ -1,12 +1,12 @@
 This is a instagram-clone that is Made on react and currently hosted on firebase 
 
-It is a very minimal web - app that supports:
+It is a very minimal web - app  without proper security that supports:
 
 
-* comment addition
-* Post addition
-* SignIn/SignUp : functionality
-
+* **comment addition**
+* **Post addition**
+* **SignIn/SignUp : functionality**
+* **responsiveness**
 
 user can add their posts by uploading the image and entering caption  
 
